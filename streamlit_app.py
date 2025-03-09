@@ -1,4 +1,3 @@
-!pip install numpy pandas matplotlib seaborn streamlit
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
