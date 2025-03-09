@@ -85,7 +85,7 @@ with col1:
     st.metric("Total orders", value=total_orders)
 
 with col2:
-    total_revenue = format_currency(daily_orders_df.revenue.sum(), "IDR", locale='id_ID')
+    total_revenue = format_currency(daily_orders_df.revenue.sum(), "USD", locale='en_US')
     st.metric("Total Revenue", value=total_revenue)
 
 fig, ax = plt.subplots(figsize=(16, 8))
