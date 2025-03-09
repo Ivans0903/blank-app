@@ -11,5 +11,5 @@
 2. Run the app
 
    ```
-   $ streamlit run dashboard.py
+   $ streamlit run streamlit_app.py
    ```
